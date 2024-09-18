@@ -1,7 +1,7 @@
 <h1 align="center"><a href="https://youtube.com/@rajdeepchatterjee-pb5jw?si=LAEg_mWzrHpJcrp6">pythOyO</a></h1>
 
 
-[![](https://github.com/RajChat-hub/pythOyO/blob/main/asyets/imyages/pythOyO_Logo.png)](https://youtube.com/@rajdeepchatterjee-pb5jw?si=LAEg_mWzrHpJcrp6)
+[![](https://github.com/RajChat-hub/pythOyO/blob/main/asyets/imyages/pythOyO_500px_Logo.png)](https://youtube.com/@rajdeepchatterjee-pb5jw?si=LAEg_mWzrHpJcrp6)
 
 <p align="center">
   <b>pythOyO is an uyu programming language written in Python. UyU.</b>
