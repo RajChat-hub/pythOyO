@@ -1,2 +1,4 @@
 include README.md
 include LICENSE
+include asyets/imyages/*
+include exyamples/*
