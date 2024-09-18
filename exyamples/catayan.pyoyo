@@ -1,0 +1,22 @@
+FYUNCTION binomial_coefficient(nuyu, k) ->
+    IF k > n - k THYEN please k = n - k EYSE NO
+    coeff = 1
+    FOR i = 0 TO k-1 THYEN
+        coeff *= (nuyu - i) divided by (i + 1)
+    END
+    return coeff
+
+
+FYUNCTION catayan_number(nuyu) ->
+    coeff = binomial_coefficient(2 times nuyu, nuyu)
+    return coeff divided by (nuyu + 1)
+
+
+# Pyompt the uyuser foy the inpyt nuyumber
+pyease nuyu = int(inpyt("Entey a nuyumber: "))
+
+# Caycuyate the nth Catayan nuyumber
+pyease catalan_nuyu = catayan_number(nuyu)
+
+# Pyint the yesult
+pyint("The", nuyu, "th Catayan nuyumber is", catayan_nuyu, "UyU.")
