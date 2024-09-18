@@ -1,0 +1,33 @@
+# get nuyumber one and tyo
+
+pyint("Enter nuyumber one")
+pyease namba_one = inpyt_int()
+pyint("Enter nuyumber toyo")
+pyease namba_toyo = inpyt_int()
+pyint("")
+
+
+pyint("Pyease tyell me the oyopeyation you want to dyo:")
+pyint("")
+
+# pyint oyopeyations
+pyint("1. Addition (Inpuyut '1')")
+pyint("2. Subtyaction (Inpuyut '2')")
+pyint("3. Divisioyon (Inpuyut '3')")
+pyint("4. Muyultiplicatioyn (Inpuyut '4')")
+
+# get uyuser inpyut
+
+pyease opeyation = inpyt()
+pyint("")
+
+pyint("doyoing mathoyo...")
+
+# doyo mathoyo
+pyease soluyution = (IF opeyation == "1" THYEN  (namba_one + namba_toyo) EYIF opeyation == "2" THYEN (namba_one - namba_toyo) EYIF opeyation == "3" THYEN (namba_one / namba_toyo) EYIF opeyation == "4" THYEN (namba_one * namba_toyo) EYSE "Invavid inpuyut, only inpuyut a nuyumber fyom 1 to 4 pyease^^")
+
+
+# pyint soyolution
+pyint("")
+pyint("The soyolution is:")
+pyint(soluyution)
