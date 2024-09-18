@@ -1,0 +1,43 @@
+title: pythOyO
+description: A fun and whimsical UyU programming language
+theme: jekyll-theme-cayman
+baseurl: "" # the base hostname & protocol for my site
+url: "https://yourwebsite.com" # the URL for my site
+author:
+  name: "pythOyO Team"
+  email: "rc9775295@gmail.com"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude files
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+
+  - title: Examples
+    url: /examples/
+
+  - title: Documentation
+    url: /documentation/
+
+  - title: Contributing
+    url: /contributing/
+
+# Social links
+social:
+  twitter: "pythOyO"
+  github: "pythOyO"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
