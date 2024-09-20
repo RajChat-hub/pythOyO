@@ -1,0 +1,39 @@
+name: macOS Build
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'  # Adjust to my preferred version
+
+      - name: Install Dependencies
+        run: |
+          brew install pkgbuild
+          # Add more dependencies as needed
+          
+      - name: Build macOS Package
+        run: |
+          sudo pkgbuild --root /path/to/your/files \
+          --identifier com.github.rajchat-hub.pythoyo \
+          --version 1.0 \
+          --install-location /Applications \
+          PythOyO.pkg
+          
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: macOS-pkg
+          path: PythOyO.pkg
