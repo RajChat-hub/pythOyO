@@ -136,6 +136,8 @@ This is pythOyO
 
 ```
 (｡･ÿ･｡)ﾉ★ > cyear
+
+(｡･ÿ･｡)ﾉ★ > exyit()
 ```
 
 
