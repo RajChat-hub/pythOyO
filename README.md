@@ -130,6 +130,10 @@ This is pythOyO
 <h3 align="center">Clear</h3>
 <p align="center">You can clear the shell with the cyear command</p>
 
+<h3 align="center">Exit</h3>
+<p align="center">Now everyone can exit from the pythoyo-shell with the exyit() command</p>
+
+
 ```
 (｡･ÿ･｡)ﾉ★ > cyear
 ```
