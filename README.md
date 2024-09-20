@@ -12,10 +12,11 @@
 </p>
 <p align="center">
   <a href="https://pypi.org/project/PythOyO/">PythOyO on PyPi</a><br>
+  <a href="https://pypi.org/project/PythOyO/">Now the update is available for more robust system, PythOyO==0.1.1</a><br>
 </p>
 
 ```bash
-pip install PythOyO
+pip install PythOyO==0.1.1
 ```
 
 <h2 align="center">Uyusage</h2>
@@ -28,14 +29,14 @@ pyint("Heyyo Woyrld")
 
 <h4 align="left">Ruyun</h4>
 
-Either run from the interpreter directly:
+Now everyone can directly run by navigating the directory, where the test.pyoyo file is located
 ```sh
-python/python3 pythoyo.py test.pyoyo
+pythoyo test.pyoyo
 ```
 
-Or run in an interactive shell:
+Or directly can run in anywhere of the system by command
 ```sh
-python shÿell.py
+pythoyo-shell
 (｡･ÿ･｡)ﾉ★ > ryun("test.pyoyo")
 ```
 
@@ -49,7 +50,7 @@ Heyyo Woyrld
 
 <h3 align="center">General</h3>
 
-<p align="center"><code>python shÿell.py</code> opens the pythOyO shell. Running <code>ryun("test.pyoyo")</code> from the shell execuyutes code from the file <code>test.pyoyo</code>.</p>
+<p align="center"><code>pythoyo-shell</code> opens the pythOyO shell. Running <code>ryun("test.pyoyo")</code> from the shell execuyutes code from the file <code>test.pyoyo</code>.</p>
 
 
 <h3 align="center">Variables</h3>
