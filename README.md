@@ -12,9 +12,15 @@
 </p>
 <p align="center">
   <a href="https://pypi.org/project/PythOyO/">PythOyO on PyPi</a><br>
+
   <a href="https://pypi.org/project/PythOyO/">Now the update is available for more robust system, PythOyO==0.1.1</a><br>
 </p>
+<a href="https://pypi.org/project/PythOyO/">Now everycan can get the Debian Distributation</a><br>
+</p>
 
+```bash
+sudo dpkg -i python-pythoyo_0.1.1_all.deb
+```
 ```bash
 pip install PythOyO==0.1.1
 ```
@@ -29,7 +35,7 @@ pyint("Heyyo Woyrld")
 
 <h4 align="left">Ruyun</h4>
 
-Now everyone can directly run by navigating the directory, where the test.pyoyo file is located
+Now everyone can directly run by navigating the directory, where the pyoyo file is located
 ```sh
 pythoyo test.pyoyo
 ```
